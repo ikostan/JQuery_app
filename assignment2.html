@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Professional Portfolio</title>
+		
+		<!-- Metadata -->
+		<meta charset="UTF-8">
+  		<meta name="course" content="Advanced Javascript: Summer 2017">
+  		<meta name="assignment" content="ASSIGNMENT 2">
+  		<meta name="student name" content="">
+  		<meta name="student ID" content="">
+		
+		<!-- CSS styling file -->
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		
+		<!-- jQuery Reference -->	
+		<!-- Please note that for this project uncompressed version of jquery is used: jquery-3.2.1.js -->
+		<script src="jquery/jquery-3.2.1.js" type="text/javascript"></script>
+		
+		<!-- External JavaScript file -->
+		<script src="js/script.js" type="text/javascript"></script>
+			
+	</head>
+	<body>	
+		<!-- Main body -->
+			<div class="mainBody">
+			
+			<!-- Navigation Menu -->		
+			<div id="nav">
+			<h2>Menu:</h2>					
+				<ul>					
+					<li id="about">About me</li>
+					<li id='sub'>My interests</li>
+						<ul id="sub_menu">
+							<li id="3d">3D printing</li>
+							<li id="algorithm">Algorithms</li>
+							<li id="java">Java</li>
+							<li id="android">Android</li>
+						</ul>
+					<li id="tSpec">Tech specs</li>					
+				</ul>
+				
+				<h2>Animated BG:</h2>
+				<ul>					
+				<li id="onBg">ON</li>
+				<li id="changeBg">Change BG</li>
+				</ul>				
+			</div>
+			
+			<!-- Website Content -->			
+			<div id="content">
+							
+				<div id="aboutMe">
+						
+				<!-- Image and name -->
+				<div id="image">
+					<img src="img/photo.JPG" alt="photo" id="ik"/>
+					<div id="name">Me</div>
+				</div>
+				
+				<!-- BIO including expirience -->
+				<h3>Hello, my name is .... and this is my short bio</h3> 
+				<p>Currently I am studying at Douglas College in New Westminster. My upcoming Post-Degree diploma (Information and Communication Technology) offering a strong foundation in software engineering and programming principles across multiple platforms.</p>
+				<p>Before I arrived to Canada I have been employed with Sela Software Labs as a software testing contractor for AT&amp;T Israel for five years. While working with AT&amp;T Israel I prepared test documentation: STP, STD and STR. I was responsible for preparation and maintenance of test environments: installation of Win clients in virtual environment, office installation, network configuration (client side), joining clients to domain, new exchange user creation and upgrade of testing software. I also have a working knowledge of SQL queries and manual testing of client side software.</p><p><a href='https://ca.linkedin.com/in/' target='_blank'>Linked-In</a></p>
+			
+			</div>
+			
+			<!-- 3D modeling and printing -->
+			<div id="3dPrint">
+			<h3>3D modeling and printing</h3>
+			<p><span id='3dImg'></span>3D printing, also known as additive manufacturing (AM), refers to processes used to create a three-dimensional object in which layers of material are formed under computer control to create an object. Objects can be of almost any shape or geometry and are produced using digital model data from a 3D model or another electronic data source such as an Additive Manufacturing File (AMF) file. </p>
+			<p>Thingiverse is a thriving design community for discovering, making, and sharing 3D printable things. As the world's largest 3D printing community.</p><p><a href='http://www.thingiverse.com/' target='_blank'>Thingiverse</a></p>
+				
+			</div>		
+		
+			<!-- Algorithms -->
+			<div id="alg">
+			<h3>Algorithms</h3>
+			<p>In mathematics and computer science, an algorithm is a self-contained sequence of actions to be performed. Algorithms can perform calculation, data processing and automated reasoning tasks.</p>
+			<p>In this project included the following search algorithms:
+			<ul><li class='notNav'> 
+				Linear search
+			</li><li class='notNav'>
+				Binary search 
+			</li></ul></p>
+			<p>In this project included the following sorting algorithms:
+			<ul>
+				<li class='notNav'>Bubble sort</li>
+				<li class='notNav'>Insertion sort</li>
+				<li class='notNav'>Selection sort</li>
+				<li class='notNav'>Quicksort</li>
+				<li class='notNav'>Merge sort</li>
+			</ul></p>
+			<p><a href='https://github.com/ikostan/Algorithms' target='_blank'>GitHub</a></p>
+			</div>
+			
+			
+			<!-- Java code sample -->
+			<div id="rosseta">
+			<h3>Rosetta Code - my solution in JAVA</h3>
+			<p>Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.</p>
+			<p>Rosetta Code is a programming chrestomathy site. The idea is to present solutions to the same task in as many different languages as possible, to demonstrate how languages are similar and different, and to aid a person with a grounding in one approach to a problem in learning another. Rosetta Code currently has 846 tasks, 198 draft tasks, and is aware of 648 languages, though we do not (and cannot) have solutions to every task in every language.</p><p><a href='https://github.com/ikostan/Rosetta_Code' target='_blank'>GitHub</a></p>
+			</div>
+
+
+			<!-- Android mobile app -->
+			<div id='mobile'> 
+			<h3>DiceOut - Android game app</h3> 
+			<p>Android is a mobile operating system developed by Google, based on the Linux kernel and designed primarily for touchscreen mobile devices such as smartphones and tablets.</p>
+			<p>The simulates rolling three dice and scoring a certain number of points for different combinations. There are three dice that appear in the middle and there is a Roll button that is customized with an image in the lower right corner.</p><p><a href='https://github.com/ikostan/DiceOut' target='_blank'>GitHub</a></p>
+		
+			</div>
+			
+			<!-- Tech Spec -->
+			<div id='spec'>
+			
+			<h3>Technical Specifications</h3>
+			<div class="faq">
+			
+			<p>This is brief summary of key items I used in order to create this webpage (see below):</p>
+			
+			<h4><span>+ </span>Slide Menu</h4>	
+				
+				<div class="answer">
+	        		
+	        		<table>
+	        			
+	        			<thead>
+	        				<tr>
+	        					<td>#</td>
+	        					<td>HTML</td>
+	        					<td>CSS</td>
+	        					<td>JS/jQuery</td>
+	        				</tr>
+	        			</thead>
+	       
+	       				<tbody>
+	       					<tr>
+	       						<td>
+	       							<span class="strong">1</span>
+	       						</td>
+	        					<td>
+	        						<ul>
+	        							<li><span class="strong">div:</span> is used in order to create a container</li>
+	        						</ul>	        						
+	        					</td>
+	        					<td>
+	        						<ul>
+	        							<li><span class="strong">color, font-weight, font-size:</span> are used in order to mark item in focus</li>
+	        						</ul>
+	        					</td>
+	        					<td>
+	        						<ul>
+	        							<li><span class="strong">click:</span> is used in order to respond on click event</li>
+	        						</ul>
+	        					</td>
+	        				</tr>
+	        				<tr>
+	       						<td>
+	       							<span class="strong">2</span>
+	       						</td>
+	        					<td>
+	        						<ul>
+	        							<li><span class="strong">ul, li:</span> are used as a menu list items</li>
+	        						</ul>	        						
+	        					</td>
+	        					<td>
+	        						<ul>
+	        							<li><span class="strong">display:</span> is used in order to hide sub-menu items</li>
+	        						</ul>
+	        					</td>
+	        					<td>
+	        						<ul>
+	        							<li><span class="strong">value.innerHTML:</span> is used in order to change button header (ON/OFF)</li>
+	        						</ul>
+	        					</td>
+	        				</tr>
+	        				<tr>
+	       						<td>
+	       							<span class="strong">3</span>
+	       						</td>
+	        					<td>
+	        						<ul>
+	        							<li><span class="strong">h2:</span> is used as a menu header</li>
+	        						</ul>	        						
+	        					</td>
+	        					<td><ul><li><span class="strong">border:</span> is used in order to create a frame</li></ul></td>
+	        					<td>
+	        						<ul>
+	        							<li><span class="strong">.removeClass, .slideToggle, .hide():</span> are used in order to slide and highlight a menu item</li>
+	        						</ul>
+	        					</td>
+	        				</tr>
+	       				</tbody>
+	       				
+	       				<tfoot>
+	       					
+	       				</tfoot> 			
+	        			
+	        		</table>
+	        		
+	        		
+	     		 </div>
+			</div>
+		
+			<div class="faq">
+	      		<h4><span>+ </span>Background Animation</h4>
+	      		<div class="answer">
+	        	
+	        		<table>
+	        			<thead>
+	        				<tr>
+	        					<td>#</td>
+	        					<td>HTML</td>
+	        					<td>CSS</td>
+	        					<td>JS/jQuery</td>
+	        				</tr>
+	        			</thead>
+	       
+	       				<tbody>
+	       					<tr>
+	       						<td><span class="strong">1</span></td>
+	        					<td>
+	        						<ul>
+	        							<li><span class="strong">div:</span> is used in ordeer to create the main body container</li></ul></td>
+	        					<td>
+	        						n/a
+	        					</td>
+	        					<td>
+	        						<ul>
+	        							<li><span class="strong">Math.random, Math.floor, background, .css:</span> are used in order to randomise and set a new background color</li>
+	        						</ul>
+	        					</td>
+	        				</tr>
+	       				</tbody>
+	       				
+	       				<tfoot>
+	       					
+	       				</tfoot> 			
+	        			
+	        		</table>
+	        	
+	      		</div>
+			</div>
+	
+			<div class="faq">
+	      		<h4><span>+ </span>Contant animation</h4>
+	      		<div class="answer">
+	        	<table>
+	        			<thead>
+	        				<tr>
+	        					<td>#</td>
+	        					<td>HTML</td>
+	        					<td>CSS</td>
+	        					<td>JS/jQuery</td>
+	        				</tr>
+	        			</thead>
+	       
+	       				<tbody>
+	       					<tr>
+	       						<td><span class="strong">1</span></td>
+	        					<td>
+	        						<ul>
+	        							<li><span class="strong">span, div:</span> are used in order to create containers</li>
+	        						</ul>
+	        					</td>
+	        					<td>
+	        						<ul>
+	        							<li><span class="strong">display, visibility:</span> are used in order to hide the content</li>
+	        						</ul>
+	        					</td>
+	        					<td>
+	        						<ul>
+	        							<li><span class="strong">.hide(), .fadeIn, .children:</span> are used in order to animate and show the content</li>
+	        						</ul>
+	        					</td>
+	        				</tr>
+	       				</tbody>
+	       				
+	       				<tfoot>
+	       					
+	       				</tfoot> 			
+	        			
+	        		</table>
+      			</div>
+      			
+			</div>
+			
+			</div>
+		</div>
+		</div>	
+	</body>
+</html>
